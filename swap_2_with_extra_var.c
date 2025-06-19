@@ -6,8 +6,8 @@ int main() {
     printf("Enter variable : \n");
     scanf("%d",&var);
     var = a;
-    a=b;
-    b=var;
+    a = b;
+    b = var;
     printf("After swapping :\n");
     printf("a=%d b=%d",a,b);
     return 0;
