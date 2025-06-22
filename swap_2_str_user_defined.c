@@ -21,14 +21,16 @@ int areStringsEqual(char str1[], char str2[]) {
 }
 
 int main() {
-    char str[] = "viven";
-    char str1[] = "viven";
+    char str[10],str1[10];
+    printf("Enter str :");
+    scanf("%s",str);
+    printf("Enter str1 :\n");
+    scanf("%s",str1);
 
     if (areStringsEqual(str, str1)) {
         printf("Two strings are equal\n");
     } else {
         printf("Two strings are not equal\n");
     }
-
     return 0;
 }
