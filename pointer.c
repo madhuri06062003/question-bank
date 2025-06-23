@@ -7,7 +7,7 @@ int main() {
 
     printf("Value of a :%d\n",a);
     printf("Value of ptr :%p\n",ptr);
-    printf("Address of a :%p\n",&a);
+    printf("Address of a :%p\n",(void *)&a);
     printf("Address of ptr :%d\n",*ptr);
 
     return 0;
