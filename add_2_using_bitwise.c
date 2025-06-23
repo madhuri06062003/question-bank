@@ -2,7 +2,7 @@
 int addusingbitwise(int a,int b) {
     int carry;
     while(b!=0) {
-        carry = a&b;
+        carry = a&b;//carry contain comman set of bits
         a=a^b;
         //carry is shifted by one so that add and give it req sum
         b=carry<<1;
