@@ -20,14 +20,15 @@ int main() {
 int max_arr_find(int arr[],int length);
 
 int main() {
-    int arr[]={34,2,45,67,24,56,35};
-    int lenght;
+    int arr[]={2,23,4,67,853,1,34,56,53};
+    int length =0;
     int min=max_arr_find(arr, length);
     printf("Minimum %d\n",min);
     return 0;
 }
 int max_arr_find(int arr[],int length) {
     int min,i;
+    min =arr[0];
     for(i=0;i<length;i++) {
         printf("Cheking arr[%d] :%d\n",i,min);
         if(arr[i]<min) {
@@ -35,6 +36,6 @@ int max_arr_find(int arr[],int length) {
         }
     }
     printf("\n");
-    return 0;
+    return min;
 }
 
