@@ -1,5 +1,5 @@
 //count occurance without function
-/*#include<stdio.h>
+#include<stdio.h>
 int main() {
     int arr[]={1,2,3,4,5,6,7,8};
     int count =0;
@@ -12,15 +12,15 @@ int main() {
         if(arr[i]==find_number) {
             count++;
         }
-        printf("5 found %d\n",count);
+        printf("%d found %d\n",i,count);
     }
     printf("\n");
     return 0;
-}*/
+}
 
 
 //using function
-#include<stdio.h>
+/*#include<stdio.h>
 int count_occur(int arr[],int length,int find_number);
 
 int main() {
@@ -42,4 +42,4 @@ int count_occur(int arr[],int length,int find_number) {
     }
     printf("\n");
     return 0;
-}
+}*/
